@@ -1,0 +1,106 @@
+{
+ "autoname": "AR.#######", 
+ "creation": "2014-05-06 14:13:01.203763", 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Master", 
+ "fields": [
+  {
+   "fieldname": "section_break_1", 
+   "fieldtype": "Section Break", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "article_name", 
+   "fieldtype": "Data", 
+   "in_list_view": 1, 
+   "label": "Article Name", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "author", 
+   "fieldtype": "Data", 
+   "label": "Author", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "status", 
+   "fieldtype": "Select", 
+   "in_list_view": 1, 
+   "label": "Status", 
+   "options": "Active\nInactive\nDiscontinued", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "publisher", 
+   "fieldtype": "Data", 
+   "label": "Publisher", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "language", 
+   "fieldtype": "Data", 
+   "label": "Language", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "isbn", 
+   "fieldtype": "Data", 
+   "label": "ISBN", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "column_break_8", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "image", 
+   "fieldtype": "Attach", 
+   "in_list_view": 0, 
+   "label": "Image", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "image_view", 
+   "fieldtype": "Image", 
+   "in_list_view": 1, 
+   "label": "Image View", 
+   "options": "image", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "section_break_11", 
+   "fieldtype": "Section Break", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "description", 
+   "fieldtype": "Text", 
+   "in_list_view": 1, 
+   "label": "Description", 
+   "permlevel": 0, 
+   "reqd": 1
+  }
+ ], 
+ "modified": "2014-05-06 15:44:30.712031", 
+ "modified_by": "Administrator", 
+ "module": "Library Management", 
+ "name": "Article", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "create": 1, 
+   "delete": 1, 
+   "permlevel": 0, 
+   "read": 1, 
+   "role": "Librarian", 
+   "write": 1
+  }
+ ], 
+ "search_fields": "article_name,author"
+}

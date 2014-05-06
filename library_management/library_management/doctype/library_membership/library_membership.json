@@ -1,0 +1,70 @@
+{
+ "autoname": "LM.#######", 
+ "creation": "2014-05-06 14:26:13.025517", 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Master", 
+ "fields": [
+  {
+   "fieldname": "library_member", 
+   "fieldtype": "Link", 
+   "in_list_view": 1, 
+   "label": "Library Member", 
+   "options": "Library Member", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "member_first_name", 
+   "fieldtype": "Read Only", 
+   "in_list_view": 1, 
+   "label": "Member First Name", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "member_last_name", 
+   "fieldtype": "Read Only", 
+   "in_list_view": 1, 
+   "label": "Member Last Name", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "from_date", 
+   "fieldtype": "Date", 
+   "in_list_view": 1, 
+   "label": "From Date", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "to_date", 
+   "fieldtype": "Date", 
+   "in_list_view": 1, 
+   "label": "To Date", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "paid", 
+   "fieldtype": "Check", 
+   "label": "Paid", 
+   "permlevel": 0
+  }
+ ], 
+ "modified": "2014-05-06 14:26:13.025517", 
+ "modified_by": "Administrator", 
+ "module": "Library Management", 
+ "name": "Library Membership", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "create": 1, 
+   "delete": 1, 
+   "permlevel": 0, 
+   "read": 1, 
+   "role": "Librarian", 
+   "write": 1
+  }
+ ]
+}

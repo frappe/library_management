@@ -1,0 +1,63 @@
+{
+ "autoname": "MEM.#####", 
+ "creation": "2014-05-06 14:20:39.589489", 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Master", 
+ "fields": [
+  {
+   "fieldname": "first_name", 
+   "fieldtype": "Data", 
+   "in_list_view": 1, 
+   "label": "First Name", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "last_name", 
+   "fieldtype": "Data", 
+   "in_list_view": 1, 
+   "label": "Last Name", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "email_id", 
+   "fieldtype": "Data", 
+   "in_list_view": 1, 
+   "label": "Email Id", 
+   "permlevel": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "phone", 
+   "fieldtype": "Data", 
+   "in_list_view": 1, 
+   "label": "Phone", 
+   "permlevel": 0
+  }, 
+  {
+   "fieldname": "address", 
+   "fieldtype": "Text", 
+   "in_list_view": 1, 
+   "label": "Address", 
+   "permlevel": 0
+  }
+ ], 
+ "modified": "2014-05-06 14:23:47.229211", 
+ "modified_by": "Administrator", 
+ "module": "Library Management", 
+ "name": "Library Member", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "create": 1, 
+   "delete": 1, 
+   "permlevel": 0, 
+   "read": 1, 
+   "role": "Librarian", 
+   "write": 1
+  }
+ ], 
+ "search_fields": "first_name,last_name"
+}
