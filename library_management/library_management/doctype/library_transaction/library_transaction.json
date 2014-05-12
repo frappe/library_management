@@ -17,7 +17,7 @@
   {
    "default": "Today", 
    "fieldname": "transaction_date", 
-   "fieldtype": "Date", 
+   "fieldtype": "Datetime", 
    "label": "Transaction Date", 
    "permlevel": 0, 
    "reqd": 1
@@ -36,6 +36,7 @@
    "fieldtype": "Read Only", 
    "in_list_view": 1, 
    "label": "Article Name", 
+   "options": "article.article_name", 
    "permlevel": 0
   }, 
   {
@@ -56,7 +57,7 @@
    "read_only": 1
   }
  ], 
- "modified": "2014-05-06 16:48:00.818859", 
+ "modified": "2014-05-10 15:07:12.563492", 
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Library Transaction", 

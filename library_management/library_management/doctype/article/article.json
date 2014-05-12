@@ -86,7 +86,7 @@
    "reqd": 1
   }
  ], 
- "modified": "2014-05-06 15:44:30.712031", 
+ "modified": "2014-05-08 09:37:29.552616", 
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Article", 
@@ -102,5 +102,6 @@
    "write": 1
   }
  ], 
- "search_fields": "article_name,author"
+ "search_fields": "article_name,author", 
+ "title_field": "article_name"
 }

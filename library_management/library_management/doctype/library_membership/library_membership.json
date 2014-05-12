@@ -19,6 +19,7 @@
    "fieldtype": "Read Only", 
    "in_list_view": 1, 
    "label": "Member First Name", 
+   "options": "library_member.first_name", 
    "permlevel": 0
   }, 
   {
@@ -26,6 +27,7 @@
    "fieldtype": "Read Only", 
    "in_list_view": 1, 
    "label": "Member Last Name", 
+   "options": "library_member.last_name", 
    "permlevel": 0
   }, 
   {
@@ -51,7 +53,7 @@
    "permlevel": 0
   }
  ], 
- "modified": "2014-05-06 14:26:13.025517", 
+ "modified": "2014-05-09 16:51:16.907918", 
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Library Membership", 

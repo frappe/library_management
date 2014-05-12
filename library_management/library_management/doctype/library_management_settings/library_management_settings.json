@@ -1,0 +1,35 @@
+{
+ "creation": "2014-05-08 13:08:13.838662", 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "System", 
+ "fields": [
+  {
+   "default": "30", 
+   "description": "In days", 
+   "fieldname": "loan_period", 
+   "fieldtype": "Int", 
+   "in_list_view": 1, 
+   "label": "Loan Period", 
+   "permlevel": 0
+  }
+ ], 
+ "issingle": 1, 
+ "modified": "2014-05-08 13:08:13.838662", 
+ "modified_by": "Administrator", 
+ "module": "Library Management", 
+ "name": "Library Management Settings", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "create": 1, 
+   "permlevel": 0, 
+   "read": 1, 
+   "role": "Librarian", 
+   "write": 1
+  }
+ ], 
+ "sort_field": "modified", 
+ "sort_order": "DESC"
+}

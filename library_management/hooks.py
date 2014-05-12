@@ -8,6 +8,10 @@ app_email = "info@frappe.io"
 app_url = "https://frappe.io/apps/library_management"
 app_version = "0.0.1"
 
+role_home_page = {
+	"Library Member": "article"
+}
+
 # Includes in <head>
 # ------------------
 
@@ -57,6 +61,12 @@ app_version = "0.0.1"
 
 # Scheduled Tasks
 # ---------------
+
+scheduler_events = {
+	"daily": [
+		"library_management.tasks.daily"
+	],
+}
 
 # scheduler_events = {
 # 	"all": [
