@@ -3,7 +3,7 @@
 
 from __future__ import unicode_literals
 import frappe
-from frappe.utils import datediff, nowdate, format_date, add_days
+from frappe.utils import date_diff, nowdate, formatdate, add_days
 
 def daily():
 	loan_period = frappe.db.get_value("Library Management Settings", None, "loan_period")
@@ -16,7 +16,7 @@ def daily():
 
 		for i in items:
 			content += "<li>{0} ({1}) due on {2}</li>".format(i.article_name, i.article,
-				format_date(add_days(i.transaction_date, loan_period)))
+				formatdate(add_days(i.transaction_date, loan_period)))
 
 		content += "</ol>"
 
@@ -36,7 +36,7 @@ def get_overdue(loan_period):
 		if d.article in articles_transacted:
 			continue
 
-		if d.transaction_type=="Issue" and datediff(today, d.transaction_date) > loan_period:
+		if d.transaction_type=="Issue" and date_diff(today, d.transaction_date) > loan_period:
 			overdue_by_member.setdefault(d.library_member, [])
 			overdue_by_member[d.library_member].append(d)
 
