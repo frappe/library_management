@@ -1,10 +1,11 @@
 from frappe import _
 
-data = {
-	"Library Management": {
-		"color": "#589494",
-		"icon": "icon-book",
-		"type": "module",
-		"label": _("Library Management")
+def get_data():
+	return {
+		"Library Management": {
+			"color": "#589494",
+			"icon": "icon-book",
+			"type": "module",
+			"label": _("Library Management")
+		}
 	}
-}
