@@ -1,6 +1,6 @@
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "Web Notes"
+app_publisher = "Frappe"
 app_description = "App for managing Articles, Members, Memberships and Transactions for Libraries"
 app_icon = "icon-book"
 app_color = "#589494"

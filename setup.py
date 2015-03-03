@@ -7,7 +7,7 @@ setup(
     name='library_management',
     version=version,
     description='App for managing Articles, Members, Memberships and Transactions for Libraries',
-    author='Web Notes',
+    author='Frappe',
     author_email='info@frappe.io',
     packages=find_packages(),
     zip_safe=False,
